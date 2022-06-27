@@ -1,0 +1,31 @@
+[
+  {
+    "_id": {
+      "$oid": "62b4b4de47040c6341fe16c9"
+    },
+    "userId": "abc@gmail.com",
+    "courseId": "xyz",
+    "amount": "auto generated",
+    "mode": "credit",
+    "status": "verified",
+    "card": {
+      "type": "visa",
+      "lastFourNumbers": "4321",
+      "expiryMonth": 12,
+      "expiryYear": 2023,
+      "cvvVerified": true
+    }
+  },
+
+  {
+    "_id": {
+      "$oid": "62b4b4de47040c6341fe16ca"
+    },
+    "userId": "xyz@gmail.com",
+    "courseId": "abx",
+    "amount": "auto generated",
+    "mode": "stripe",
+    "status": "awaitingVerification",
+    "token": "secret_token"
+  }
+]

@@ -1,0 +1,40 @@
+GET http://localhost:3000/payment HTTP/1.1
+{
+  "userId": "",
+
+}
+
+
+#### 
+
+POST http://localhost:3000/payment HTTP/1.1
+Content-Type: application/json
+
+{
+  "userId": "",
+  "courseId": "",
+  "amount": "",
+  "mode": "",
+  "status": "",
+  "card": ""
+    
+}
+
+### 
+GET http://localhost:3000/payment HTTP/1.1
+
+
+
+
+
+
+
+### 
+
+POST http://localhost:3000/auth HTTP/1.1
+Content-Type: application/json
+
+{
+    "userId":"@gmail.com", 
+    "password":"secret@123"
+}
